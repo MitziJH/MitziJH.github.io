@@ -1,0 +1,135 @@
+header{
+
+    display: flex;
+background-color: rgba(146, 208, 233, 0.959);
+justify-content:space-between ;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1;
+color: rgb(204, 130, 194);
+}
+
+header h1{
+    font-family: "Lora", serif;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10%;
+    background-color: rgb(245, 201, 201);
+}
+
+#logo{
+    width: 8%;
+    height: 13%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin: 5%;
+}
+
+.presentacion h2{
+    text-align: center;
+    font-size: 250%;
+}
+
+.presentacion p{
+    text-align: justify;
+    font-size: 150%;
+    margin: 15%;
+    margin-top: 5%;
+}
+
+.presentacion{
+    background-color: rgb(204, 153, 252);
+    margin: 15%;
+    margin-bottom: 0%;
+    color: rgb(253, 253, 177);
+}
+
+.imgca{
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 0%;
+    margin-bottom: 5%;
+background-color: rgb(245, 201, 201);
+}
+
+.menu {
+    font-size: 300%;
+    color: rgb(248, 88, 77);
+}
+
+.tradicionales {
+text-align: center;
+font-size: 200%;
+color: rgb(204, 130, 194);
+}
+
+section {
+    display: flex;
+    color: chocolate;
+    }
+    
+    section div {
+        margin: 5%;
+    }
+    
+    section div h2{
+        text-align: center;
+    }
+    
+    section div p{
+        text-align: justify;
+    }
+
+
+section img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.nuevo {
+    text-align: center;
+font-size: 300%;
+color: rgb(204, 130, 194);
+}
+
+
+.ListaInferior ul {
+    list-style: none;
+    display: flex;
+}
+.ListaInferior ul li{
+    justify-content: space-between;
+    margin: 15%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    
+}
+
+footer{
+    background-color: rgba(133, 197, 223, 0.959);
+    
+}
+footer ul{
+list-style: none;
+display: flex;
+}
+
+footer ul li {
+    justify-content: space-between;
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
